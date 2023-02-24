@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 180: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    Narrator "จากนี้ไปนิทานที่เคยเป็นจะเปลี่ยนไปจากตำนานเก่าที่เคยเป็นมา..."
+    ^
+
+Ren'Py Version: Ren'Py 8.0.3.22090809
+Fri Nov 25 03:48:27 2022

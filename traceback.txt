@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 696, in script
+    lay sound "audio/Effect/Bone Tear and Break Sound Effect 1.mp3"
+Exception: Sayer 'lay' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 696, in script
+    lay sound "audio/Effect/Bone Tear and Break Sound Effect 1.mp3"
+  File "C:\Users\night\Downloads\renpy-8.0.3-sdk\renpy\ast.py", line 881, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\night\Downloads\renpy-8.0.3-sdk\renpy\ast.py", line 774, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'lay' is not defined.
+
+Windows-10-10.0.19044 AMD64
+Ren'Py 8.0.3.22090809
+The Sleeping Beauty 1.0
+Thu Nov 24 05:09:57 2022
